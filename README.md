@@ -1,0 +1,2 @@
+# archdots
+Arch Linux dotfiles.
