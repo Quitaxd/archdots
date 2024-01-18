@@ -58,6 +58,14 @@ echo "Fish config installed."
 ;;
 esac
 
+case "$helix" in
+[yY][eE][sS]|[yY])
+cp -r dot_config/helix ~/.config
+yay -S helix --noconfirm --needed
+echo "Helix config installed."
+;;
+esac
+
 case "$nano" in
 [yY][eE][sS]|[yY])
 cp -r dot_config/nano ~/.config
